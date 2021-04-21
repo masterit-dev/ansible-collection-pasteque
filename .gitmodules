@@ -1,0 +1,6 @@
+[submodule "roles/pasteque_jsadmin"]
+	path = roles/pasteque_jsadmin
+	url = git@gitlab.com:masterit-public/ansible/ansible-role-pasteque-jsadmin.git
+[submodule "roles/pasteque_api"]
+	path = roles/pasteque_api
+	url = git@gitlab.com:masterit-public/ansible/ansible-role-pasteque-api.git

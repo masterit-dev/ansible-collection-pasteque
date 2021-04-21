@@ -48,13 +48,10 @@ You can find more information in the [developer guide for collections](https://d
 
 See [here](https://docs.ansible.com/ansible/devel/dev_guide/developing_collections.html#testing-collections).
 
-## Licensing
+## License
 
-GNU General Public License v3.0 or later.
+[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
-See [COPYING](https://www.gnu.org/licenses/gpl-3.0.txt) to see the full text.
+## Author Information
 
-
-
-
-
+This role was created in 2021 by Lucien DURAND-HARDY from MasterIT

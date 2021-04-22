@@ -2,13 +2,13 @@
 # The namespace of the collection. This can be a company/brand/organization or product namespace under which all
 # content lives. May only contain alphanumeric lowercase characters and underscores. Namespaces cannot start with
 # underscores or numbers and cannot contain consecutive underscores
-namespace: masterit
+namespace: masterit_dev
 
 # The name of the collection. Has the same character restrictions as 'namespace'
 name: pasteque
 
 # The version of the collection. Must be compatible with semantic versioning
-version: 1.0.0
+version: 1.1.0
 
 # The path to the Markdown (.md) readme file. This path is relative to the root of the collection
 readme: README.md
@@ -21,7 +21,7 @@ authors:
 
 ### OPTIONAL but strongly recommended
 # A short summary description of the collection
-description: A collection for pasteque API and interfaces
+description: A collection for pasteque API and JSAdmin interface
 
 license:
 - CC-BY-SA-4.0
@@ -29,9 +29,9 @@ license:
 license_file: ''
 
 tags:
- - pasteque
- - cashregister
- - caisses
+- pasteque
+- cashregister
+- caisses
 
 # Collections that this collection requires to be installed for it to be usable. The key of the dict is the
 # collection label 'namespace.name'. The value is a version range
@@ -40,16 +40,16 @@ tags:
 dependencies: {}
 
 # The URL of the originating SCM repository
-repository: https://gitlab.com/masterit-public/ansible/ansible-collection-pasteque.git
+repository: https://github.com/masterit-dev/ansible-collection-pasteque.git
 
 # The URL to any online docs
-documentation: https://gitlab.com/masterit-public/ansible/ansible-collection-pasteque.git
+documentation: https://github.com/masterit-dev/ansible-collection-pasteque.git
 
 # The URL to the homepage of the collection/project
-homepage: https://gitlab.com/masterit-public/ansible/ansible-collection-pasteque.git
+homepage: https://github.com/masterit-dev/ansible-collection-pasteque.git
 
 # The URL to the collection issue tracker
-issues: https://gitlab.com/masterit-public/ansible/ansible-collection-pasteque/-/issues
+issues: https://github.com/masterit-dev/ansible-collection-pasteque/issues
 
 # A list of file glob-like patterns used to filter any files or directories that should not be included in the build
 # artifact. A pattern is matched from the relative path of the file or directory of the collection directory. This

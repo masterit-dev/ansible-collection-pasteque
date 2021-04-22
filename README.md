@@ -1,34 +1,39 @@
 # Pasteque Collection
 
-This repo contains the `masterit.pasteque` Ansible Collection. The collection includes 2 roles :
-
-* masterit.pasteque_api
-* masterit.pasteque_jsadmin
-
-## External requirements
-
-Some roles require external libraries. Please check the requirements for each role you use in the documentation to find out which requirements are needed.
+This repo contains the `masterit_dev.pasteque` Ansible Collection.
 
 ## Included content
 
-Please check the included content on the [Ansible Galaxy page for this collection](https://galaxy.ansible.com/masterit/pasteque)
+The collection includes 2 roles :
+- [masterit_dev.pasteque_api](https://galaxy.ansible.com/masterit_dev/pasteque_api)
+- [masterit_dev.pasteque_jsadmin](https://galaxy.ansible.com/masterit_dev/pasteque_jsadmin)
+
+Please check the included content on the [Ansible Galaxy page for this collection](https://galaxy.ansible.com/masterit_dev/pasteque)
+
+## External requirements
+
+Some roles require external libraries. Please check the requirements for each role you use in the role documentation to find out which requirements are needed.
+
+All roles in this collections needs (at least):
+- [geerlingguy.php](https://galaxy.ansible.com/geerlingguy/php)
+- [geerlingguy.apache](https://galaxy.ansible.com/geerlingguy/apache)
+- [geerlingguy.apache-php-fpm](https://galaxy.ansible.com/geerlingguy/apache-php-fpm)
+- [geerlingguy.composer](https://galaxy.ansible.com/geerlingguy/composer)
 
 ## Using this collection
 
-Before using the General community collection, you need to install the collection with the `ansible-galaxy` CLI:
+Before using the pasteque collection, you need to install the collection with the `ansible-galaxy` CLI:
 
-    ansible-galaxy collection install masterit.pasteque
+    ansible-galaxy collection install masterit_dev.pasteque
 
 You can also include it in a `requirements.yml` file and install it via `ansible-galaxy collection install -r requirements.yml` using the format:
 
 ```yaml
 collections:
-- name: masterit.pasteque
+  - name: masterit_dev.pasteque
 ```
 
 See [Ansible Using collections](https://docs.ansible.com/ansible/latest/user_guide/collections_using.html) for more details.
-
-
 
 ## Contributing to this collection
 
@@ -38,7 +43,7 @@ For example, if you are working in the `~/dev` directory:
 
 ```
 cd ~/dev
-git clone git@gitlab.com:masterit-public/ansible/ansible-collection-pasteque.git collections/ansible_collections/community/general
+git clone git@github.com:masterit-dev/ansible-collection-pasteque.git collections/ansible_collections/masterit_dev/pasteque
 export COLLECTIONS_PATH=$(pwd)/collections:$COLLECTIONS_PATH
 ```
 
@@ -54,4 +59,4 @@ See [here](https://docs.ansible.com/ansible/devel/dev_guide/developing_collectio
 
 ## Author Information
 
-This role was created in 2021 by Lucien DURAND-HARDY from MasterIT
+This role was created in 2021 by Lucien DURAND-HARDY from [MasterIT](http//www.masterit.fr)
